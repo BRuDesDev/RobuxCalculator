@@ -1,0 +1,2 @@
+[console_scripts]
+robux_calculator = robux_calculator.__main__:main
