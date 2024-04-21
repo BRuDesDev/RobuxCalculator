@@ -35,22 +35,22 @@ img_label.grid(row=0, column=0, columnspan=4, padx=10, pady=10)
 
 # Create the entry Text label
 robux_entry_label = tk.Label(root, text="Robux to Convert", font=("Helvetica", 15, "normal"), bg="purple", fg="white")
-robux_entry_label.grid(row=2, column=0, columnspan=1, padx=10, pady=10)
+robux_entry_label.grid(row=2, column=0, padx=10, pady=10)
 
 # Create the entry field for Robux input
 robux_entry = tk.Entry(root, width=6, borderwidth=2)
-robux_entry.grid(row=2, column=1)
+robux_entry.grid(row=2, column=1, padx=10, pady=10)
 
 # Bind the function to the entry widget's KeyRelease event
 robux_entry.bind("<KeyRelease>", lambda event: calculate_usd())
 
 # Show the final calculation
 usd_entry_label = tk.Label(root, text="Equivalent Value in USD: ", font=("Helvetica", 15, "normal"), bg="purple", fg="white")
-usd_entry_label.grid(row=2, column=2)
+usd_entry_label.grid(row=2, column=2, padx=10, pady=10)
 
 # Create the entry field for USD output
 usd_entry = tk.Entry(root, width=6, borderwidth=2)
-usd_entry.grid(row=2, column=3)
+usd_entry.grid(row=2, column=3, padx=10, pady=10)
 
 root.mainloop()
 
