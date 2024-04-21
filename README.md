@@ -8,15 +8,15 @@ To use the Robux Calculator, follow these steps:
 
 1. Clone the repository to your local machine:
    
-         |~> git clone https://github.com/your_username/robux-calculator.git
+         git clone https://github.com/BRuDesDev/RobuxCalculator.git
    
 2. Navigate to the project directory:
-   
-         |~> cd robux-calculator
 
-3. Install the package using pip:
+         cd RobuxCalculator
 
-         |~> pip install .
+4. Install the package using pip:
+
+         pip install .
 
 
 Note: If you prefer to use a virtual environment, create and activate the virtual environment before installing the package.
@@ -24,7 +24,7 @@ Note: If you prefer to use a virtual environment, create and activate the virtua
 ## Usage
 Once the package is installed, you can run the Robux Calculator from the command line using the following command:
         
-        |~> robux_calculator
+        robux_calculator
 
 The Robux Calculator GUI window will open, allowing you to enter the amount of Robux to convert. As you type, the equivalent value in USD will be calculated and displayed in real-time.
 
